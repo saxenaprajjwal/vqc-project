@@ -1,0 +1,38 @@
+{
+  "params": {
+    "seed": 42,
+    "dataset": "blobs",
+    "train_size": 20,
+    "test_size": 10,
+    "epochs": 10,
+    "patience": 5,
+    "shots": null,
+    "batch_size": 5,
+    "noise": 0.2,
+    "n_qubits": 2,
+    "layers": 2,
+    "embedding": "amplitude",
+    "entanglement": "ring",
+    "optimizer": "Adam",
+    "lr": 0.05
+  },
+  "final_train_acc": 0.75,
+  "final_test_acc": 0.4000000059604645,
+  "best_epoch": 0,
+  "train_losses": [
+    0.6586213409900665,
+    0.6368441805243492,
+    0.6080217361450195,
+    0.5981020480394363,
+    0.5896688103675842,
+    0.5798643752932549
+  ],
+  "test_accs": [
+    0.800000011920929,
+    0.6000000238418579,
+    0.5,
+    0.4000000059604645,
+    0.4000000059604645,
+    0.4000000059604645
+  ]
+}
